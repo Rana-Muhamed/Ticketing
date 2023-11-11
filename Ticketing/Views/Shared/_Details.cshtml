@@ -1,0 +1,64 @@
+﻿@model TicketsViewModel
+<div>
+    <div class=" form-group">
+        <label class="col-form-label" asp-for="Id"></label>
+        <input asp-for="Id" class="form-control" readonly />
+        <span asp-validation-for="Id" class="text-danger"></span>
+    </div>
+    <div class=" form-group">
+        <label class="col-form-label" asp-for="CreateDateTime"></label>
+        <input asp-for="CreateDateTime" class="form-control" readonly />
+        <span asp-validation-for="CreateDateTime" class="text-danger"></span>
+    </div>
+    <div class=" form-group">
+        <label class="col-form-label" asp-for="CreatorId"></label>
+        <input asp-for="CreatorId" class="form-control" readonly />
+        <span asp-validation-for="CreatorId" class="text-danger"></span>
+    </div>
+    <div class=" form-group">
+        <label class="col-form-label" asp-for="LastUpdatedById"></label>
+        <input asp-for="LastUpdatedById" class="form-control" readonly />
+        <span asp-validation-for="LastUpdatedById" class="text-danger"></span>
+    </div>
+    <div class=" form-group">
+        <label class="col-form-label" asp-for="LastActionAt"></label>
+        <input asp-for="LastActionAt" class="form-control" readonly />
+        <span asp-validation-for="LastActionAt" class="text-danger"></span>
+    </div>
+    <div class=" form-group">
+        <label class="col-form-label" asp-for="Category"></label>
+        <input asp-for="Category" class="form-control" readonly />
+        <span asp-validation-for="Category" class="text-danger"></span>
+    </div>
+    <div class=" form-group">
+        <label class="col-form-label" asp-for="Severity"></label>
+        <input asp-for="Severity" class="form-control" readonly />
+        <span asp-validation-for="Severity" class="text-danger"></span>
+    </div>
+    <div class=" form-group">
+        <label class="col-form-label" asp-for="SLInHours"></label>
+        <input asp-for="SLInHours" class="form-control" readonly />
+        <span asp-validation-for="SLInHours" class="text-danger"></span>
+    </div>
+    <div class=" form-group">
+        <label class="col-form-label" asp-for="Description"></label>
+        <input asp-for="Description" class="form-control" readonly />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class=" form-group">
+        <label class="col-form-label" asp-for="Status"></label>
+        <input asp-for="Status" class="form-control" readonly />
+        <span asp-validation-for="Status" class="text-danger"></span>
+    </div>
+    <div class=" form-group">
+        <label class="col-form-label" asp-for="SLEndDateTime"></label>
+        <input asp-for="SLEndDateTime" class="form-control" readonly />
+        <span asp-validation-for="SLEndDateTime" class="text-danger"></span>
+    </div>
+    <div class=" form-group">
+        <label class="col-form-label" asp-for="TechnicianId"></label>
+        <input asp-for="TechnicianId" class="form-control" readonly />
+        <span asp-validation-for="TechnicianId" class="text-danger"></span>
+    </div>
+    <a asp-action="Index" class="btn btn-light">Back to list</a>
+</div>
